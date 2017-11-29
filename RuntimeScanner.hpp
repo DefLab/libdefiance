@@ -40,6 +40,10 @@
 #define PASS -1
 #define STOP 403
 
+#ifndef u_char
+typedef unsigned char u_char;
+#endif
+
 const std::string empty = std::string();
 
 enum METHOD {
